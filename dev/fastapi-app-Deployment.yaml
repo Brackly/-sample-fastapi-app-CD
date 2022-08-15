@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fastapi_app_Deployment
+  name: fastapi-app-deployment
   labels:
     app: fastapi-app
 spec:
