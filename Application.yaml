@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Brackly/-sample-fastapi-app-CD.gitt
+    repoURL: https://github.com/Brackly/-sample-fastapi-app-CD.git
     targetRevision: HEAD
     path: dev
   destination:
