@@ -18,7 +18,8 @@ spec:
       - name: ecr-registry-key
       containers:
       - name: fastapi-app
-        image: 818341956246.dkr.ecr.us-east-2.amazonaws.com/test:e0432b77e83cbfb6dbd5eb79ebcd84bbdf469865
+        image: 818341956246.dkr.ecr.us-east-2.amazonaws.com/test:6d73bee19fb60e578629857fe64df8c884cbe530
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+          - containerPort: 8080
+
